@@ -13,9 +13,30 @@ namespace WebAppASP.net
     {
         void Application_Start(object sender, EventArgs e)
         {
+            //parte4
+            // Create Application state variables
+            Application["TotalApplications"] = 0;
+            Application["TotalUserSessions"] = 0;
+            // Increment TotalApplications by 1
+            Application["TotalApplications"] = (int)Application["TotalApplications"] + 1;
+
             // Código que se ejecuta al iniciar la aplicación
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+        }
+
+        //parte 4
+        void Session_Start(object sender, EventArgs e)
+        {
+            // Increment TotalUserSessions by 1
+            Application["TotalUserSessions"] = (int)Application["TotalUserSessions"] + 1;
+        }
+
+        //parte 4
+        void Session_End(object sender, EventArgs e)
+        {
+            // Decrement TotalUserSessions by 1
+            Application["TotalUserSessions"] = (int)Application["TotalUserSessions"] - 1;
         }
     }
 }
