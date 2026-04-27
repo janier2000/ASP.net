@@ -105,6 +105,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="10- TextBox Control2\Captura.PNG" />
+    <Content Include="10- TextBox Control2\WebForm1.aspx" />
     <Content Include="8-IsPostBack\WebForm1.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
@@ -169,6 +171,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10- TextBox Control2\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="10- TextBox Control2\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="8-IsPostBack\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
