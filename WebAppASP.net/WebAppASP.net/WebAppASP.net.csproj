@@ -109,6 +109,7 @@
     <Content Include="10- TextBox Control2\WebForm1.aspx" />
     <Content Include="11- Radio Button Control\WebForm1.aspx" />
     <Content Include="12 - CheckBox Control\WebForm1.aspx" />
+    <Content Include="13 - Hyperlink control\WebForm1.aspx" />
     <Content Include="8-IsPostBack\WebForm1.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
@@ -138,6 +139,7 @@
     <Content Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState1.aspx" />
     <Content Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState2.aspx" />
     <Content Include="6-eventos del ciclo de vida de la página\WebForm1.aspx" />
+    <Content Include="Images\hiperviculo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -192,6 +194,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="12 - CheckBox Control\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="13 - Hyperlink control\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="13 - Hyperlink control\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="8-IsPostBack\WebForm1.aspx.cs">
