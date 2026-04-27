@@ -108,6 +108,7 @@
     <Content Include="10- TextBox Control2\Captura.PNG" />
     <Content Include="10- TextBox Control2\WebForm1.aspx" />
     <Content Include="11- Radio Button Control\WebForm1.aspx" />
+    <Content Include="12 - CheckBox Control\WebForm1.aspx" />
     <Content Include="8-IsPostBack\WebForm1.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
@@ -184,6 +185,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="11- Radio Button Control\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="12 - CheckBox Control\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="12 - CheckBox Control\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="8-IsPostBack\WebForm1.aspx.cs">
