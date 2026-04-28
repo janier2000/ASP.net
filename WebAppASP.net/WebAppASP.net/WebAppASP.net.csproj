@@ -105,23 +105,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="10- TextBox Control2\Captura.PNG" />
-    <Content Include="10- TextBox Control2\WebForm1.aspx" />
-    <Content Include="11- Radio Button Control\WebForm1.aspx" />
-    <Content Include="12 - CheckBox Control\WebForm1.aspx" />
-    <Content Include="13 - Hyperlink control\WebForm1.aspx" />
-    <Content Include="14- Button -  LinkButton and ImageButton Controls\submit.jpg" />
-    <Content Include="14- Button -  LinkButton and ImageButton Controls\WebForm1.aspx" />
-    <Content Include="15 - Button - Command Event of an control\WebForm1.aspx" />
-    <Content Include="15 - Button - Command Event of an control\WebForm2.aspx" />
+    <Content Include="10 - TextBox\Captura.PNG" />
+    <Content Include="10 - TextBox\WebForm1.aspx" />
+    <Content Include="11 - Radio Button\WebForm1.aspx" />
+    <Content Include="12 - CheckBox\WebForm1.aspx" />
+    <Content Include="13 - Hyperlink\WebForm1.aspx" />
+    <Content Include="14 - Button -LinkButton- ImageButton\submit.jpg" />
+    <Content Include="14 - Button -LinkButton- ImageButton\WebForm1.aspx" />
+    <Content Include="15 - Button\WebForm1.aspx" />
+    <Content Include="15 - Button\WebForm2.aspx" />
     <Content Include="16 - Dropdownlist\WebForm1.aspx" />
-    <Content Include="17 - Dropdownlist- Data bind  with data from the database\WebForm1.aspx" />
-    <Content Include="18 - Dropdownlist - Binding with an XML file\Countries.xml" />
-    <Content Include="18 - Dropdownlist - Binding with an XML file\WebForm1.aspx" />
-    <Content Include="19 - Mapping virtual path to physical path using Server MapPath method\Data\Countries\Countries.xml" />
-    <Content Include="19 - Mapping virtual path to physical path using Server MapPath method\Electronics\PageInElectronicsFolder.aspx" />
-    <Content Include="19 - Mapping virtual path to physical path using Server MapPath method\PageInRootDirectory.aspx" />
-    <Content Include="8-IsPostBack\WebForm1.aspx" />
+    <Content Include="17 - Dropdownlist\WebForm1.aspx" />
+    <Content Include="18 - Dropdownlist\Countries.xml" />
+    <Content Include="18 - Dropdownlist\WebForm1.aspx" />
+    <Content Include="19 - Server.MapPath\Data\Countries\Countries.xml" />
+    <Content Include="19 - Server.MapPath\Electronics\PageInElectronicsFolder.aspx" />
+    <Content Include="19 - Server.MapPath\PageInRootDirectory.aspx" />
+    <Content Include="8 - IsPostBack\WebForm1.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -143,13 +143,13 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="7-Eventos de control del servidor\WebForm1.aspx" />
-    <Content Include="4-Eventos en el ciclo de vida de una aplicación web\WebForm1.aspx" />
-    <Content Include="5-Diferencia entre ViewState, y Session State en aplicación\SessionState1.aspx" />
-    <Content Include="5-Diferencia entre ViewState, y Session State en aplicación\SessionState2.aspx" />
-    <Content Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState1.aspx" />
-    <Content Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState2.aspx" />
-    <Content Include="6-eventos del ciclo de vida de la página\WebForm1.aspx" />
+    <Content Include="7 - Events\WebForm1.aspx" />
+    <Content Include="4 - Events\WebForm1.aspx" />
+    <Content Include="5 - ViewState - Session State\SessionState1.aspx" />
+    <Content Include="5 - ViewState - Session State\SessionState2.aspx" />
+    <Content Include="5 - ViewState - Session State\ViewState1.aspx" />
+    <Content Include="5 - ViewState - Session State\ViewState2.aspx" />
+    <Content Include="6 - Events\WebForm1.aspx" />
     <Content Include="Images\hiperviculo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -186,53 +186,53 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="10- TextBox Control2\WebForm1.aspx.cs">
+    <Compile Include="10 - TextBox\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="10- TextBox Control2\WebForm1.aspx.designer.cs">
+    <Compile Include="10 - TextBox\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="11- Radio Button Control\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="11- Radio Button Control\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="12 - CheckBox Control\WebForm1.aspx.cs">
+    <Compile Include="11 - Radio Button\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="12 - CheckBox Control\WebForm1.aspx.designer.cs">
+    <Compile Include="11 - Radio Button\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="13 - Hyperlink control\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="13 - Hyperlink control\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="14- Button -  LinkButton and ImageButton Controls\WebForm1.aspx.cs">
+    <Compile Include="12 - CheckBox\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="14- Button -  LinkButton and ImageButton Controls\WebForm1.aspx.designer.cs">
+    <Compile Include="12 - CheckBox\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="15 - Button - Command Event of an control\WebForm1.aspx.cs">
+    <Compile Include="13 - Hyperlink\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="15 - Button - Command Event of an control\WebForm1.aspx.designer.cs">
+    <Compile Include="13 - Hyperlink\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="15 - Button - Command Event of an control\WebForm2.aspx.cs">
+    <Compile Include="14 - Button -LinkButton- ImageButton\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="14 - Button -LinkButton- ImageButton\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="15 - Button\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="15 - Button\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="15 - Button\WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="15 - Button - Command Event of an control\WebForm2.aspx.designer.cs">
+    <Compile Include="15 - Button\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="16 - Dropdownlist\WebForm1.aspx.cs">
@@ -242,39 +242,39 @@
     <Compile Include="16 - Dropdownlist\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="17 - Dropdownlist- Data bind  with data from the database\WebForm1.aspx.cs">
+    <Compile Include="17 - Dropdownlist\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="17 - Dropdownlist- Data bind  with data from the database\WebForm1.aspx.designer.cs">
+    <Compile Include="17 - Dropdownlist\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="18 - Dropdownlist - Binding with an XML file\WebForm1.aspx.cs">
+    <Compile Include="18 - Dropdownlist\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="18 - Dropdownlist - Binding with an XML file\WebForm1.aspx.designer.cs">
+    <Compile Include="18 - Dropdownlist\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="19 - Mapping virtual path to physical path using Server MapPath method\Electronics\PageInElectronicsFolder.aspx.cs">
+    <Compile Include="19 - Server.MapPath\Electronics\PageInElectronicsFolder.aspx.cs">
       <DependentUpon>PageInElectronicsFolder.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="19 - Mapping virtual path to physical path using Server MapPath method\Electronics\PageInElectronicsFolder.aspx.designer.cs">
+    <Compile Include="19 - Server.MapPath\Electronics\PageInElectronicsFolder.aspx.designer.cs">
       <DependentUpon>PageInElectronicsFolder.aspx</DependentUpon>
     </Compile>
-    <Compile Include="19 - Mapping virtual path to physical path using Server MapPath method\PageInRootDirectory.aspx.cs">
+    <Compile Include="19 - Server.MapPath\PageInRootDirectory.aspx.cs">
       <DependentUpon>PageInRootDirectory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="19 - Mapping virtual path to physical path using Server MapPath method\PageInRootDirectory.aspx.designer.cs">
+    <Compile Include="19 - Server.MapPath\PageInRootDirectory.aspx.designer.cs">
       <DependentUpon>PageInRootDirectory.aspx</DependentUpon>
     </Compile>
-    <Compile Include="8-IsPostBack\WebForm1.aspx.cs">
+    <Compile Include="8 - IsPostBack\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="8-IsPostBack\WebForm1.aspx.designer.cs">
+    <Compile Include="8 - IsPostBack\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -303,53 +303,53 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="7-Eventos de control del servidor\WebForm1.aspx.cs">
+    <Compile Include="7 - Events\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="7-Eventos de control del servidor\WebForm1.aspx.designer.cs">
+    <Compile Include="7 - Events\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="4-Eventos en el ciclo de vida de una aplicación web\WebForm1.aspx.cs">
+    <Compile Include="4 - Events\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="4-Eventos en el ciclo de vida de una aplicación web\WebForm1.aspx.designer.cs">
+    <Compile Include="4 - Events\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\SessionState1.aspx.cs">
+    <Compile Include="5 - ViewState - Session State\SessionState1.aspx.cs">
       <DependentUpon>SessionState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\SessionState1.aspx.designer.cs">
+    <Compile Include="5 - ViewState - Session State\SessionState1.aspx.designer.cs">
       <DependentUpon>SessionState1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\SessionState2.aspx.cs">
+    <Compile Include="5 - ViewState - Session State\SessionState2.aspx.cs">
       <DependentUpon>SessionState2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\SessionState2.aspx.designer.cs">
+    <Compile Include="5 - ViewState - Session State\SessionState2.aspx.designer.cs">
       <DependentUpon>SessionState2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState1.aspx.cs">
+    <Compile Include="5 - ViewState - Session State\ViewState1.aspx.cs">
       <DependentUpon>ViewState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState1.aspx.designer.cs">
+    <Compile Include="5 - ViewState - Session State\ViewState1.aspx.designer.cs">
       <DependentUpon>ViewState1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState2.aspx.cs">
+    <Compile Include="5 - ViewState - Session State\ViewState2.aspx.cs">
       <DependentUpon>ViewState2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="5-Diferencia entre ViewState, y Session State en aplicación\ViewState2.aspx.designer.cs">
+    <Compile Include="5 - ViewState - Session State\ViewState2.aspx.designer.cs">
       <DependentUpon>ViewState2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="6-eventos del ciclo de vida de la página\WebForm1.aspx.cs">
+    <Compile Include="6 - Events\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="6-eventos del ciclo de vida de la página\WebForm1.aspx.designer.cs">
+    <Compile Include="6 - Events\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -376,6 +376,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="10 - TextBox\Control\" />
+    <Folder Include="11 - Radio Button\Control\" />
+    <Folder Include="12 - CheckBox\Control\" />
+    <Folder Include="13 - Hyperlink\Control\" />
+    <Folder Include="14 - Button -LinkButton- ImageButton\Controls\" />
+    <Folder Include="15 - Button\Command Event of an control\" />
+    <Folder Include="17 - Dropdownlist\Data bind  with data from the database\" />
+    <Folder Include="18 - Dropdownlist\Binding with an XML file\" />
+    <Folder Include="19 - Server.MapPath\Mapping virtual path to physical path using Server MapPath method\" />
+    <Folder Include="4 - Events\Events in the life cycle of a web application\" />
+    <Folder Include="5 - ViewState - Session State\5-Diferencia entre ViewState, y Session State en aplicación\" />
+    <Folder Include="6 - Events\Page Life Cycle Events\" />
+    <Folder Include="7 - Events\Server control events\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
