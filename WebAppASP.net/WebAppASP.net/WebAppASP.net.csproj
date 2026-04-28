@@ -112,6 +112,8 @@
     <Content Include="13 - Hyperlink control\WebForm1.aspx" />
     <Content Include="14- Button, LinkButton and ImageButton Controls\submit.jpg" />
     <Content Include="14- Button, LinkButton and ImageButton Controls\WebForm1.aspx" />
+    <Content Include="15 - Command Event of an asp.net button control\WebForm1.aspx" />
+    <Content Include="15 - Command Event of an asp.net button control\WebForm2.aspx" />
     <Content Include="8-IsPostBack\WebForm1.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
@@ -211,6 +213,20 @@
     </Compile>
     <Compile Include="14- Button, LinkButton and ImageButton Controls\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="15 - Command Event of an asp.net button control\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="15 - Command Event of an asp.net button control\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="15 - Command Event of an asp.net button control\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="15 - Command Event of an asp.net button control\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="8-IsPostBack\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
