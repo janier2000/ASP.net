@@ -115,6 +115,7 @@
     <Content Include="15 - Command Event of an asp.net button control\WebForm1.aspx" />
     <Content Include="15 - Command Event of an asp.net button control\WebForm2.aspx" />
     <Content Include="16 - Dropdownlist\WebForm1.aspx" />
+    <Content Include="17 - Data bind dropdownlist with data from the database\WebForm1.aspx" />
     <Content Include="8-IsPostBack\WebForm1.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
@@ -234,6 +235,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="16 - Dropdownlist\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="17 - Data bind dropdownlist with data from the database\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="17 - Data bind dropdownlist with data from the database\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="8-IsPostBack\WebForm1.aspx.cs">
