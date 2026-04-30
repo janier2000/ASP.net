@@ -124,6 +124,7 @@
     <Content Include="A -Dropdownlist\21 - dropdownlist\WebForm1.aspx" />
     <Content Include="A -Dropdownlist\22 - dropdownlist\WebForm1.aspx" />
     <Content Include="B - Checkboxlist\23 - checkboxlist control\WebForm1.aspx" />
+    <Content Include="B - Checkboxlist\24 - checkboxlist, select or deselect all list items\WebForm1.aspx" />
     <Content Include="Data\Countries\Countries.xml" />
     <Content Include="20 - Server.MapPath\WebForm1.aspx" />
     <Content Include="8 - IsPostBack\WebForm1.aspx" />
@@ -317,6 +318,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="B - Checkboxlist\23 - checkboxlist control\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="B - Checkboxlist\24 - checkboxlist, select or deselect all list items\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="B - Checkboxlist\24 - checkboxlist, select or deselect all list items\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">

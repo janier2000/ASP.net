@@ -29,13 +29,15 @@ namespace WebAppASP.net.B___Checkboxlist._23___checkboxlist_control
                     Response.Write("Index = " + checkboxListEducation.Items.IndexOf(li).ToString()+ "<br/>");
                     Response.Write("<br/><br/>");
                 }
-                Response.Write(checkboxListEducation.SelectedValue+ "<br/>");
-                Response.Write(checkboxListEducation.SelectedItem.Text + "<br/>" + "<br/>");
+               
+            }
 
-                if (checkboxListEducation.SelectedItem != null)
-                {
-                    Response.Write(checkboxListEducation.SelectedItem.Text + "<br/>");
-                }
+            Response.Write(checkboxListEducation.SelectedValue + "<br/>");
+            Response.Write(checkboxListEducation.SelectedItem.Text + "<br/>" + "<br/>");
+
+            if (checkboxListEducation.SelectedItem != null)
+            {
+                Response.Write(checkboxListEducation.SelectedItem.Text + "<br/>");
             }
         }
     }
